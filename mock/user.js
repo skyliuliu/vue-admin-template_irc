@@ -1,7 +1,7 @@
 
 const tokens = {
   admin: {
-    token: 'admin-token'
+    token: 'token'
   },
   editor: {
     token: 'editor-token'
@@ -26,7 +26,7 @@ const users = {
 export default [
   // user login
   {
-    url: '/vue-admin-template/user/login',
+    url: '/login',
     type: 'post',
     response: config => {
       const { username } = config.body
